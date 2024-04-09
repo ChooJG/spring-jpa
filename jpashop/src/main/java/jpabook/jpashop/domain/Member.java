@@ -23,6 +23,6 @@ public class Member {
     private Address address;
     
     @OneToMany(mappedBy = "member") //Order 테이블에 있는 member에 의해 mapped 됨
-    private List<Order> orders = new ArrayList<>();
+    private List<Order> orders = new ArrayList<>(); //이와 같은 컬렉션은 바꾸지 말고 이대로 사용
 
 }

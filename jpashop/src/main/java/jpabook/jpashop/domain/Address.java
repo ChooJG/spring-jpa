@@ -6,8 +6,7 @@ import lombok.Setter;
 
 //Member의 내장타입?
 @Embeddable
-@Getter
-@Setter
+@Getter //값 타입은 값 변경 x, setter 열지 말자
 public class Address {
 
     private String city;
